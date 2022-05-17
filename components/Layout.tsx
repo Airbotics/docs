@@ -1,7 +1,7 @@
-import { ReactNode, useState, useEffect } from 'react';
+import { ReactNode, useState } from 'react';
 import { BiLinkExternal, BiMenu } from 'react-icons/bi';
 import { useRouter } from 'next/router';
-import { styled, config } from '../common-ui/stitches.config';
+import { styled} from '../common-ui/stitches.config';
 import { IconButton } from '../common-ui/IconButton';
 import { Logo } from './Logo';
 import { ThemeToggle } from './ThemeToggle';
