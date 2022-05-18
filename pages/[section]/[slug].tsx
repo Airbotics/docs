@@ -118,15 +118,18 @@ const mdComponents = {
 };
 
 const StyledReactMarkdown = styled(ReactMarkdown, {
-    'h2': {
+    '& h2': {
         color: '$textDark',
         fontFamily: '$title',
         marginTop: '$7',
         marginBottom: '$2'
     },
-    li: {
+    '& li': {
         listStyle: 'outside',
         padding: '$1 0'
+    },
+    '& p': {
+        padding: '$2 0'
     }
 });
 
