@@ -1,4 +1,4 @@
-import { styled } from './stitches.config'
+import { styled } from '../stitches.config'
 
 // TODO react prop types
 export const Copyright = (props: any) => {

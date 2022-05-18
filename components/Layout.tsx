@@ -2,11 +2,11 @@ import { ReactNode, useState } from 'react';
 import { BiLinkExternal, BiMenu } from 'react-icons/bi';
 import { useRouter } from 'next/router';
 import { styled} from '../common-ui/stitches.config';
-import { IconButton } from '../common-ui/IconButton';
-import { Logo } from './Logo';
-import { ThemeToggle } from './ThemeToggle';
-import { Flex } from '../common-ui/Flex';
-import { Copyright } from '../common-ui/Copyright';
+import { IconButton } from '../common-ui/components/IconButton';
+import { Logo } from '../common-ui/components/Logo';
+import { ThemeToggle } from '../common-ui/components/ThemeToggle';
+import { Flex } from '../common-ui/components/Flex';
+import { Copyright } from '../common-ui/components/Copyright';
 import { ISection } from '../types';
 
 

@@ -5,8 +5,8 @@ import { Layout } from '../../components/Layout';
 import { ISection, IArticleLink, IArticle } from '../../types';
 import { EditSource } from '../../components/EditSource';
 import { styled } from '../../common-ui/stitches.config';
-import { Flex } from '../../common-ui/Flex';
-import { Heading, SubHeading } from '../../common-ui/Headings';
+import { Flex } from '../../common-ui/components/Flex';
+import { Heading, SubHeading } from '../../common-ui/components/Headings';
 import { Img } from '../../components/Img';
 
 

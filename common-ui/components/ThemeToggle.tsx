@@ -1,6 +1,6 @@
 import { useTheme } from 'next-themes';
 import { BiSun, BiMoon } from 'react-icons/bi';
-import { IconButton } from '../common-ui/IconButton';
+import { IconButton } from './IconButton';
 
 export const ThemeToggle = () => {
 

@@ -3,8 +3,8 @@ import GitHubButton from 'react-github-btn';
 import { slate } from '@radix-ui/colors';
 import { Layout } from '../components/Layout';
 import { getToc } from '../core/utils';
-import { Heading, SubHeading } from '../common-ui/Headings';
-import { Flex } from '../common-ui/Flex';
+import { Heading, SubHeading } from '../common-ui/components/Headings';
+import { Flex } from '../common-ui/components/Flex';
 import { styled } from '../common-ui/stitches.config'
 import { Img } from '../components/Img';
 import { ISection } from '../types';
