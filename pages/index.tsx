@@ -9,7 +9,7 @@ import { styled } from '../common-ui/stitches.config'
 import { Img } from '../components/Img';
 import { ISection } from '../types';
 
-const Card = ({ gradient, children, ...props }: any) => {
+const FeaturedCard = ({ gradient, children, ...props }: any) => {
 
     const StyledCard = styled('div', {
         borderRadius: '$2',
@@ -106,22 +106,21 @@ const Component = ({ toc }: { toc: ISection[] }) => {
                 <Heading css={{ marginBottom: '$2' }}>More</Heading>
 
 
-                <Card gradient='linear-gradient(to right, #71B280, #134E5E)' css={{ marginBottom: '$5' }}>
+                <FeaturedCard gradient='linear-gradient(to right, #71B280, #134E5E)' css={{ marginBottom: '$5' }}>
                     <Heading css={{ color: slate.slate1 }}>Built for speed</Heading>
                     <p>Command palette.</p>
-                </Card>
-
-                <Card gradient='linear-gradient(to right, #42275a, #734b6d)' css={{ marginBottom: '$5' }}>
+                </FeaturedCard>
+                
+                <FeaturedCard gradient='linear-gradient(to right, #42275a, #734b6d)' css={{ marginBottom: '$5' }}>
                     <Heading css={{ color: slate.slate1 }}>We love community</Heading>
                     <p>Discord, tutorials, email, stackoverflow.</p>
-                </Card>
+                </FeaturedCard>
 
-
-                <Card gradient='linear-gradient(to right, #cb356b, #bd3f32)'>
+                <FeaturedCard gradient='linear-gradient(to right, #cb356b, #bd3f32)'>
                     <Heading css={{ color: slate.slate1 }}>We love open source</Heading>
                     <p>Each page contains a link to edit it on GitHub, make a Pull Request, we&apos;ll merge it and you&apos;ll have helped shipping code for robots easier.</p>
                     <GitHubButton href='https://github.com/Airbotics/docs' data-color-scheme='no-preference: dark; light: light; dark: dark;' data-icon='octicon-star' data-size='large' data-show-count='true' aria-label='Star Airbotics/docs on GitHub' data-text='Star'></GitHubButton>
-                </Card>
+                </FeaturedCard>
             </Flex>
         </Layout>
     )
